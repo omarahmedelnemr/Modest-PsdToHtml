@@ -1,0 +1,350 @@
+body{
+	font-size:unset;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom:0 
+}
+.container-fluid{
+	margin:5px 165px;
+	background-color: #1d2126
+}
+.navbar{
+	margin-bottom: 0
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+    height: 50px;
+    border: 2px solid #1d2126;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	border: 2px solid white;
+	border-radius: 10px
+}
+.navbar-inverse .navbar-nav>.active>a{
+	border: 2px solid #23b7a4;
+	border-radius: 10px;
+	color: #23b7a4;
+	background-color: #1d2126
+}
+
+.carousel-caption{
+	text-align: left;
+	width: 540px;
+	top: 25%;
+	left: 165px
+}
+.carousel-caption h3{
+	font-size: 20px
+}
+.carousel-caption p{
+	margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.carousel-caption a{
+	color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px
+}
+.carousel-caption a:hover{
+	border: 2px solid #2ea79a;
+	background-color: #2ea79a;
+	text-decoration: none;
+}
+.carousel-indicators{
+	text-align: right;
+}
+.title{
+	border-left: 10px solid #b1b4b5;
+	padding-left: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#about{
+	padding:0px 165px;
+	position: relative; 
+	min-height: 385px;
+	overflow: hidden;
+}
+#about .right{
+	position: relative;
+	float: right;
+	display: inline-block;
+	width: 390px
+}
+#about .left{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 475px;
+}
+#about .right p {
+	width: 335px;
+	font-size:10px;
+
+}
+#about .left p {
+	font-size:10px;
+	margin-bottom: 90px;
+}
+#about span{
+	display: inline-block;
+	background-color: #2ea79a;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 15px;
+	position: relative;
+	top: -27px;
+	margin-right: 10px
+}
+#about .content{
+	display: inline-block;
+}
+#about .right .div{
+	margin-bottom: 10px
+}
+.left .icons .fa{
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #cfd4d6;
+}
+.left .icons .fa:hover{
+	background-color: #b1b4b5
+}
+hr{
+	color: #b1b4b5;
+}
+#team{
+	margin-top: 10px;
+	padding: 0px 165px;
+	position: relative;
+}
+#team .team{
+	width: 228px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+#team .team img{
+	width: 228px
+}
+#team .plus{
+	position: absolute;
+    margin-left: 65px;
+    margin-top: -135px;
+    font-size: 20px;
+    display: none;
+}
+#team .plus i{
+	color: white;
+    background: #4d4d4d;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#team .team:hover .disc{
+	background-color: #3a454d;
+	color: white;
+}
+#team .team:hover img{
+	opacity: .5
+}
+#team .team:hover .plus{
+	display: unset;
+}
+#team .team .disc{
+	background-color: #e1e6ea;
+	padding: 5px
+}
+#work{
+	background-color: #3a454d;
+	padding: 50px 165px 20px 165px;
+	position: relative;
+}
+#work h2{
+	color: white;
+}
+
+#work .container div{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+#work .container div img{
+	width: 315px;
+    margin-right: 15px;
+}
+#work .container .hover{
+	display: block;
+	opacity: 0
+}
+#work .container .work:hover img{
+	opacity: .5
+}
+#work .container .work:hover .hover{
+	opacity: 1
+}
+#work .container .hover h3{
+	margin-top: -42px;
+    background-color: #292f36;
+    z-index: 1;
+    position: relative;
+    width: 315px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+#work .container .hover i{
+    margin-left: 149px;
+    top: -140px;
+    position: relative;
+    font-size: 18px;
+}
+#work .container button{
+	border: 2px solid white;
+	border-radius: 4px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 39%;
+	padding: 10px
+}
+#work .container button:hover{
+	color:#23b7a4 ;
+	border-color: #23b7a4;
+}
+#services{
+	padding: 50px 165px 20px 165px;
+	position: relative;
+}
+#services .ser{
+	text-align: center;
+}
+#services .ser div{
+	text-align: center;
+	display: inline-block;
+	width: 210px;
+	margin-right: 42px;
+	margin-bottom: 75px;
+}
+#features{
+	background-color: #3a454d;
+	padding: 50px 165px 20px 165px;
+	position: relative;
+
+}
+#features h2{
+	color: white;
+}
+#features .features div{
+	text-align: left;
+	display: inline-block;
+	width: 325px;
+	color: white;
+}
+#features .features div img{
+	width: 310px;
+	margin-bottom: 25px
+}
+#contact{
+	padding: 0px 125px 20px 165px;
+	margin-top: 50px;
+	height: 575px;
+}
+#contact #map{
+    width: 127%;
+    height: 300px;
+    position: relative;
+    left: -162px;
+}
+.gm-style-mtc,.gmnoprint{
+	display: none;
+}
+#contact .p{
+	width:390px;
+	position: relative;
+	float: left;
+}
+#contact .p h4{
+	margin-bottom: 40px
+}
+#contact .p p{
+	color: #949494;
+}
+#contact .inputs {
+	width: 410px;
+	background-color: white;
+	padding: 20px;
+	position: relative;
+	float: right;
+	bottom: 100px;
+}
+#contact .inputs form input{
+    border: none;
+    background-color: #eef1f3;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+    margin-right: 3.6px;
+    border-radius: 2px
+
+}
+#contact .inputs form div{
+	display: inline-block;
+}
+#contact .inputs form textarea{
+	border: none;
+    background-color: #eef1f3;
+    height:100px;
+    width: 370px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-bottom:20px
+}
+#contact .inputs form button{
+	background-color: #2dbaa8;
+	border-radius: 5px;
+	border:none;
+	color: white;
+	padding: 10px 15px;
+}
+#contact .inputs form button:hover{
+	background-color: #369488
+}
+#footer{
+/*	padding: 50px 165px 20px 165px;
+	position: relative;*/
+	font-size: 10px;
+    color: white;
+    background-color: #3a454d;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 165px;
+}
+#footer p{
+	position: relative;
+	float: left;
+}
+#footer .icons{
+	position: relative;
+	float: right;
+	font-size: 20px;
+}
+#footer  i{
+	float: right;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 70px;
+    right: -390px;
+    position: relative;
+}
